@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct MallSectionViewModel {
+    var mallName: String = ""
+    var isSelected: Bool = false
+
+    init(mallInfo: MallInfo) {
+        self.mallName = mallInfo.mallName ?? ""
+        self.isSelected = mallInfo.mallSelect ?? false
+    }
+}

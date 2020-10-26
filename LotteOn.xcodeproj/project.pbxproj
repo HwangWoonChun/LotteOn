@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32170A3F511469EA30626D8B /* Pods_LotteOn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432CE9ED3A89B05BA89E49DC /* Pods_LotteOn.framework */; };
 		4B087D8F25454B490095BFD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B087D8E25454B490095BFD9 /* AppDelegate.swift */; };
 		4B087D9125454B490095BFD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B087D9025454B490095BFD9 /* SceneDelegate.swift */; };
 		4B087D9325454B490095BFD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B087D9225454B490095BFD9 /* ViewController.swift */; };
@@ -15,6 +16,22 @@
 		4B087D9B25454B4B0095BFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B087D9925454B4B0095BFD9 /* LaunchScreen.storyboard */; };
 		4B087DA625454B4B0095BFD9 /* LotteOnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B087DA525454B4B0095BFD9 /* LotteOnTests.swift */; };
 		4B087DB125454B4B0095BFD9 /* LotteOnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B087DB025454B4B0095BFD9 /* LotteOnUITests.swift */; };
+		4B087DC325454BA00095BFD9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B087DC225454BA00095BFD9 /* Service.swift */; };
+		4B087DCC25454CC30095BFD9 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B087DCB25454CC30095BFD9 /* Product.swift */; };
+		4B087DD425454D8C0095BFD9 /* product_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B087DD325454D8B0095BFD9 /* product_list.json */; };
+		4B087DDA25454E3A0095BFD9 /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B087DD925454E3A0095BFD9 /* ProductListViewModel.swift */; };
+		4B087DDF25454EC90095BFD9 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B087DDE25454EC90095BFD9 /* Bindable.swift */; };
+		4B087DEE254554450095BFD9 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B087DED254554450095BFD9 /* CustomCollectionCell.swift */; };
+		4B087DF9254556830095BFD9 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B087DF8254556830095BFD9 /* ProductViewModel.swift */; };
+		4B087DFE254557D40095BFD9 /* CustomCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B087DFD254557D40095BFD9 /* CustomCollectionCell.xib */; };
+		4B087E042545596E0095BFD9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B087E032545596E0095BFD9 /* Extension.swift */; };
+		4B0FC00C2546713300A3D2A3 /* MallSectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0FC00B2546713300A3D2A3 /* MallSectionViewModel.swift */; };
+		4B0FC0112546837C00A3D2A3 /* MallInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0FC0102546837C00A3D2A3 /* MallInfo.swift */; };
+		4B9D22952545941B00117EF4 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D22942545941B00117EF4 /* FilterViewController.swift */; };
+		4B9D229A2545967A00117EF4 /* MallSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D22992545967A00117EF4 /* MallSelectionCell.swift */; };
+		4B9D229F2545968600117EF4 /* MallSelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B9D229E2545968600117EF4 /* MallSelectionCell.xib */; };
+		799A6A92431AF777A44551A6 /* Pods_LotteOn_LotteOnUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB83674154490692549A988 /* Pods_LotteOn_LotteOnUITests.framework */; };
+		DB7184DB443386F60748E3AE /* Pods_LotteOnTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17B1B92D32E33B5D220BB79 /* Pods_LotteOnTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		432CE9ED3A89B05BA89E49DC /* Pods_LotteOn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LotteOn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B087D8B25454B490095BFD9 /* LotteOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B087D8E25454B490095BFD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B087D9025454B490095BFD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,28 @@
 		4B087DAC25454B4B0095BFD9 /* LotteOnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotteOnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B087DB025454B4B0095BFD9 /* LotteOnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteOnUITests.swift; sourceTree = "<group>"; };
 		4B087DB225454B4B0095BFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B087DC225454BA00095BFD9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		4B087DCB25454CC30095BFD9 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		4B087DD325454D8B0095BFD9 /* product_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product_list.json; sourceTree = "<group>"; };
+		4B087DD925454E3A0095BFD9 /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
+		4B087DDE25454EC90095BFD9 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		4B087DED254554450095BFD9 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
+		4B087DF8254556830095BFD9 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		4B087DFD254557D40095BFD9 /* CustomCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionCell.xib; sourceTree = "<group>"; };
+		4B087E032545596E0095BFD9 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4B0FC00B2546713300A3D2A3 /* MallSectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallSectionViewModel.swift; sourceTree = "<group>"; };
+		4B0FC0102546837C00A3D2A3 /* MallInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallInfo.swift; sourceTree = "<group>"; };
+		4B9D22942545941B00117EF4 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		4B9D22992545967A00117EF4 /* MallSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallSelectionCell.swift; sourceTree = "<group>"; };
+		4B9D229E2545968600117EF4 /* MallSelectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MallSelectionCell.xib; sourceTree = "<group>"; };
+		53AE9E0748D003CD2C42AFD0 /* Pods-LotteOn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotteOn.release.xcconfig"; path = "Target Support Files/Pods-LotteOn/Pods-LotteOn.release.xcconfig"; sourceTree = "<group>"; };
+		8A7B6587C1BA66AC321DDA9B /* Pods-LotteOn-LotteOnUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotteOn-LotteOnUITests.debug.xcconfig"; path = "Target Support Files/Pods-LotteOn-LotteOnUITests/Pods-LotteOn-LotteOnUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EB83674154490692549A988 /* Pods_LotteOn_LotteOnUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LotteOn_LotteOnUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B697625D46FA1D5B65B3371D /* Pods-LotteOnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotteOnTests.release.xcconfig"; path = "Target Support Files/Pods-LotteOnTests/Pods-LotteOnTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC0B688EDCB384EFE4B4C0EB /* Pods-LotteOnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotteOnTests.debug.xcconfig"; path = "Target Support Files/Pods-LotteOnTests/Pods-LotteOnTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE7B863423F2A97135B534A8 /* Pods-LotteOn-LotteOnUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotteOn-LotteOnUITests.release.xcconfig"; path = "Target Support Files/Pods-LotteOn-LotteOnUITests/Pods-LotteOn-LotteOnUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C17B1B92D32E33B5D220BB79 /* Pods_LotteOnTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LotteOnTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60AB0980F90054ABBED7C66 /* Pods-LotteOn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotteOn.debug.xcconfig"; path = "Target Support Files/Pods-LotteOn/Pods-LotteOn.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32170A3F511469EA30626D8B /* Pods_LotteOn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7184DB443386F60748E3AE /* Pods_LotteOnTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				799A6A92431AF777A44551A6 /* Pods_LotteOn_LotteOnUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +126,8 @@
 				4B087DA425454B4B0095BFD9 /* LotteOnTests */,
 				4B087DAF25454B4B0095BFD9 /* LotteOnUITests */,
 				4B087D8C25454B490095BFD9 /* Products */,
+				7CD325A078041BD86AAB6E72 /* Pods */,
+				687391B11E9C0B63942A880F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +144,20 @@
 		4B087D8D25454B490095BFD9 /* LotteOn */ = {
 			isa = PBXGroup;
 			children = (
+				4B087E02254559480095BFD9 /* Extension */,
+				4B087DEC254554380095BFD9 /* View */,
+				4B087DD825454E290095BFD9 /* ViewModel */,
+				4B087DCA25454BD50095BFD9 /* Model */,
+				4B087DC125454B940095BFD9 /* Service */,
 				4B087D8E25454B490095BFD9 /* AppDelegate.swift */,
 				4B087D9025454B490095BFD9 /* SceneDelegate.swift */,
 				4B087D9225454B490095BFD9 /* ViewController.swift */,
+				4B9D22942545941B00117EF4 /* FilterViewController.swift */,
 				4B087D9425454B490095BFD9 /* Main.storyboard */,
 				4B087D9725454B4B0095BFD9 /* Assets.xcassets */,
 				4B087D9925454B4B0095BFD9 /* LaunchScreen.storyboard */,
 				4B087D9C25454B4B0095BFD9 /* Info.plist */,
+				4B087DD325454D8B0095BFD9 /* product_list.json */,
 			);
 			path = LotteOn;
 			sourceTree = "<group>";
@@ -128,6 +180,76 @@
 			path = LotteOnUITests;
 			sourceTree = "<group>";
 		};
+		4B087DC125454B940095BFD9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4B087DC225454BA00095BFD9 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4B087DCA25454BD50095BFD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B087DCB25454CC30095BFD9 /* Product.swift */,
+				4B0FC0102546837C00A3D2A3 /* MallInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B087DD825454E290095BFD9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4B087DDE25454EC90095BFD9 /* Bindable.swift */,
+				4B087DD925454E3A0095BFD9 /* ProductListViewModel.swift */,
+				4B087DF8254556830095BFD9 /* ProductViewModel.swift */,
+				4B0FC00B2546713300A3D2A3 /* MallSectionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4B087DEC254554380095BFD9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B087DED254554450095BFD9 /* CustomCollectionCell.swift */,
+				4B087DFD254557D40095BFD9 /* CustomCollectionCell.xib */,
+				4B9D22992545967A00117EF4 /* MallSelectionCell.swift */,
+				4B9D229E2545968600117EF4 /* MallSelectionCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B087E02254559480095BFD9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4B087E032545596E0095BFD9 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		687391B11E9C0B63942A880F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				432CE9ED3A89B05BA89E49DC /* Pods_LotteOn.framework */,
+				9EB83674154490692549A988 /* Pods_LotteOn_LotteOnUITests.framework */,
+				C17B1B92D32E33B5D220BB79 /* Pods_LotteOnTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CD325A078041BD86AAB6E72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D60AB0980F90054ABBED7C66 /* Pods-LotteOn.debug.xcconfig */,
+				53AE9E0748D003CD2C42AFD0 /* Pods-LotteOn.release.xcconfig */,
+				8A7B6587C1BA66AC321DDA9B /* Pods-LotteOn-LotteOnUITests.debug.xcconfig */,
+				BE7B863423F2A97135B534A8 /* Pods-LotteOn-LotteOnUITests.release.xcconfig */,
+				BC0B688EDCB384EFE4B4C0EB /* Pods-LotteOnTests.debug.xcconfig */,
+				B697625D46FA1D5B65B3371D /* Pods-LotteOnTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B087DB525454B4B0095BFD9 /* Build configuration list for PBXNativeTarget "LotteOn" */;
 			buildPhases = (
+				05D1AB4DA7FBF562DFB8D93C /* [CP] Check Pods Manifest.lock */,
 				4B087D8725454B490095BFD9 /* Sources */,
 				4B087D8825454B490095BFD9 /* Frameworks */,
 				4B087D8925454B490095BFD9 /* Resources */,
+				513646DD2F430FC028C84F53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B087DB825454B4B0095BFD9 /* Build configuration list for PBXNativeTarget "LotteOnTests" */;
 			buildPhases = (
+				7C411B30F83D1C7097E844B1 /* [CP] Check Pods Manifest.lock */,
 				4B087D9D25454B4B0095BFD9 /* Sources */,
 				4B087D9E25454B4B0095BFD9 /* Frameworks */,
 				4B087D9F25454B4B0095BFD9 /* Resources */,
@@ -170,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B087DBB25454B4B0095BFD9 /* Build configuration list for PBXNativeTarget "LotteOnUITests" */;
 			buildPhases = (
+				3FA5129B50C682A81C9178FF /* [CP] Check Pods Manifest.lock */,
 				4B087DA825454B4B0095BFD9 /* Sources */,
 				4B087DA925454B4B0095BFD9 /* Frameworks */,
 				4B087DAA25454B4B0095BFD9 /* Resources */,
+				5F2E6416DC4A77984CDBD077 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +359,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B087D9B25454B4B0095BFD9 /* LaunchScreen.storyboard in Resources */,
+				4B087DD425454D8C0095BFD9 /* product_list.json in Resources */,
 				4B087D9825454B4B0095BFD9 /* Assets.xcassets in Resources */,
+				4B087DFE254557D40095BFD9 /* CustomCollectionCell.xib in Resources */,
+				4B9D229F2545968600117EF4 /* MallSelectionCell.xib in Resources */,
 				4B087D9625454B490095BFD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,13 +383,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05D1AB4DA7FBF562DFB8D93C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LotteOn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FA5129B50C682A81C9178FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LotteOn-LotteOnUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		513646DD2F430FC028C84F53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LotteOn/Pods-LotteOn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LotteOn/Pods-LotteOn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LotteOn/Pods-LotteOn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F2E6416DC4A77984CDBD077 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LotteOn-LotteOnUITests/Pods-LotteOn-LotteOnUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LotteOn-LotteOnUITests/Pods-LotteOn-LotteOnUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LotteOn-LotteOnUITests/Pods-LotteOn-LotteOnUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C411B30F83D1C7097E844B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LotteOnTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B087D8725454B490095BFD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4B087D9325454B490095BFD9 /* ViewController.swift in Sources */,
+				4B087DC325454BA00095BFD9 /* Service.swift in Sources */,
+				4B9D229A2545967A00117EF4 /* MallSelectionCell.swift in Sources */,
+				4B087DDA25454E3A0095BFD9 /* ProductListViewModel.swift in Sources */,
+				4B087DCC25454CC30095BFD9 /* Product.swift in Sources */,
+				4B087DEE254554450095BFD9 /* CustomCollectionCell.swift in Sources */,
+				4B9D22952545941B00117EF4 /* FilterViewController.swift in Sources */,
+				4B0FC00C2546713300A3D2A3 /* MallSectionViewModel.swift in Sources */,
+				4B087E042545596E0095BFD9 /* Extension.swift in Sources */,
+				4B087DF9254556830095BFD9 /* ProductViewModel.swift in Sources */,
 				4B087D8F25454B490095BFD9 /* AppDelegate.swift in Sources */,
+				4B0FC0112546837C00A3D2A3 /* MallInfo.swift in Sources */,
+				4B087DDF25454EC90095BFD9 /* Bindable.swift in Sources */,
 				4B087D9125454B490095BFD9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +677,7 @@
 		};
 		4B087DB625454B4B0095BFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D60AB0980F90054ABBED7C66 /* Pods-LotteOn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +696,7 @@
 		};
 		4B087DB725454B4B0095BFD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53AE9E0748D003CD2C42AFD0 /* Pods-LotteOn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +715,7 @@
 		};
 		4B087DB925454B4B0095BFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0B688EDCB384EFE4B4C0EB /* Pods-LotteOnTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +737,7 @@
 		};
 		4B087DBA25454B4B0095BFD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B697625D46FA1D5B65B3371D /* Pods-LotteOnTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +759,7 @@
 		};
 		4B087DBC25454B4B0095BFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A7B6587C1BA66AC321DDA9B /* Pods-LotteOn-LotteOnUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +779,7 @@
 		};
 		4B087DBD25454B4B0095BFD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7B863423F2A97135B534A8 /* Pods-LotteOn-LotteOnUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

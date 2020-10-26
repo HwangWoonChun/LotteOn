@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+struct MallInfo {
+    let mallName: String?
+    var mallSelect: Bool?
+    let mallNo: String?
+    
+    init(mallName: String, mallSelect: Bool, mallNo: String) {
+        self.mallName = mallName
+        self.mallSelect = mallSelect
+        self.mallNo = mallNo
+    }
+}
