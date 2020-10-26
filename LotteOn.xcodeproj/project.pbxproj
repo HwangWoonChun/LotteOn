@@ -149,10 +149,9 @@
 				4B087DD825454E290095BFD9 /* ViewModel */,
 				4B087DCA25454BD50095BFD9 /* Model */,
 				4B087DC125454B940095BFD9 /* Service */,
+				4B0FC01C25469E4C00A3D2A3 /* ViewController */,
 				4B087D8E25454B490095BFD9 /* AppDelegate.swift */,
 				4B087D9025454B490095BFD9 /* SceneDelegate.swift */,
-				4B087D9225454B490095BFD9 /* ViewController.swift */,
-				4B9D22942545941B00117EF4 /* FilterViewController.swift */,
 				4B087D9425454B490095BFD9 /* Main.storyboard */,
 				4B087D9725454B4B0095BFD9 /* Assets.xcassets */,
 				4B087D9925454B4B0095BFD9 /* LaunchScreen.storyboard */,
@@ -225,6 +224,15 @@
 				4B087E032545596E0095BFD9 /* Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		4B0FC01C25469E4C00A3D2A3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B087D9225454B490095BFD9 /* ViewController.swift */,
+				4B9D22942545941B00117EF4 /* FilterViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		687391B11E9C0B63942A880F /* Frameworks */ = {
