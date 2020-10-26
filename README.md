@@ -2,6 +2,8 @@
 
 롯데ON 서비스에 있는 상품 목록과 상품 필터 화면을 만들면 됩니다.
 
+<img src="https://user-images.githubusercontent.com/8130860/97140418-e8ecbd00-179f-11eb-99f1-191abd5b4ae3.gif" width="40" height="40" /><img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+
 [ https://user-images.githubusercontent.com/8130860/97140418-e8ecbd00-179f-11eb-99f1-191abd5b4ae3.gif | height = 100px ]
 
 |기본기능|초기화|
