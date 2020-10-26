@@ -4,7 +4,7 @@
 
 |기본기능|초기화|
 |---|---|
-|<img src="https://user-images.githubusercontent.com/8130860/97140920-08d0b080-17a1-11eb-8c9a-f432105c622f.gif" width="207" height="368" />|<img src = "https://user-images.githubusercontent.com/8130860/97140418-e8ecbd00-179f-11eb-99f1-191abd5b4ae3.gif" width = 207 height = 368>|
+|<img src="https://user-images.githubusercontent.com/8130860/97141489-281c0d80-17a2-11eb-80cf-c9978655b087.gif" width="207" height="368" />|<img src = "https://user-images.githubusercontent.com/8130860/97140418-e8ecbd00-179f-11eb-99f1-191abd5b4ae3.gif" width = 207 height = 368>|
 
 # 요구사항
 
