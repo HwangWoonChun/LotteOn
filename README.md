@@ -12,6 +12,7 @@
     * Langauage : Swift
     * Open Source: RangeSeekSlider
     * Architecture: MVVM(with Protocol)
+    * 기타 : 필터뷰 와 메인뷰는 하나의 뷰모델을 사용하고 데이터 정확성을 위해 delegate 및 의존성 주입 사용
 
 # 요구사항
 
