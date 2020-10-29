@@ -1,0 +1,6 @@
+framework module Pods_LotteOn_LotteOnUITests {
+  umbrella header "Pods-LotteOn-LotteOnUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

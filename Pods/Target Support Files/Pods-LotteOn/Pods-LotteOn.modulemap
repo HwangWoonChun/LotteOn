@@ -1,0 +1,6 @@
+framework module Pods_LotteOn {
+  umbrella header "Pods-LotteOn-umbrella.h"
+
+  export *
+  module * { export * }
+}
